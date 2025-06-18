@@ -1,0 +1,87 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Drift Africa PTY LTD</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <img src="driftafrixc.jpg" alt="Drift Africa Logo" class="logo" />
+    <nav>
+      <div class="menu-toggle" id="mobileMenu"><i class="fas fa-bars"></i></div>
+      <ul id="navList">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="appointment.html">Appointment</a></li>
+        <li><a href="faq.html">FAQs</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Welcome to Drift Africa</h1>
+    <p>We provide tailor-made comprehensive strategy development
+and facilitation services that enables client companies to define, refine, and execute
+their strategic goals efficiently and effectively over the long, medium-term, and short-
+term period
+.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service"><h3>Human Resources</h3><p>Professional HR support tailored to your needs.</p></div>
+      <div class="service"><h3>Strategic Planning Workshops</h3>
+        <p>Interactive workshops designed to bring key stakeholders
+together to brainstorm, discuss, and define strategic objective
+.</p>
+</div>
+      <div class="service"><h3>Market Research</h3><p>Comprehensive analysis of market trends, competitive
+landscape, and consumer behavior to inform strategic decisions
+.</p>
+</div>
+      <div class="service"><h3>Goal Setting & KPIs</h3><p>Establishment of clear, measurable goals and key
+performance indicators (KPIs) to track progress and success
+.</p></div>
+      <div class="service"><h3>Action Plan Implementation</h3><p>Development of detailed action plans outlining the steps
+needed to achieve strategic goals, including timelines and resources
+.</p>
+</div>
+    </div>
+  </section>
+
+  <!-- Consulting section remains but is not linked from the nav -->
+  <section id="consulting" class="consulting-section">
+    <div class="consulting-image">
+      <img src="consulting.jpg" alt="Consulting" />
+    </div>
+    <div class="consulting-text">
+      <h2>Business Consulting</h2>
+      <p>We provide strategic business consulting services to help your company thrive in competitive markets.</p>
+    </div>
+  </section>
+
+  <footer id="contacts">
+    <div class="footer-contacts">
+      <p>Email: <a href="mailto:info@driftafrica.co.za">info@driftafrica.co.za</a></p>
+      <p>Phone: <a href="tel:+27823997946">+27 82 399 7946</a></p>
+      <p>Address: 35 Blougom Street<br>Noodrwyk Ext 10<br>Midrand, South Africa</p>
+      <div class="socials">
+        <a href="https://wa.me/27823997946" target="_blank" rel="noopener" title="Chat with us on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://facebook.com/driftafrica" target="_blank" rel="noopener" title="Visit our Facebook page"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+    <p class="footer-copy">&copy; 2025 Drift Africa PTY LTD. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("mobileMenu").addEventListener("click", () => {
+      document.getElementById("navList").classList.toggle("active");
+    });
+  </script>
+</body>
+</html>
